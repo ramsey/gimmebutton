@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<RDF xmlns="http://www.w3.org/1999/02/22-rdf-syntax-ns#" 
+     xmlns:em="http://www.mozilla.org/2004/em-rdf#">
+
+    <Description about="urn:mozilla:install-manifest">
+
+        <em:id>gimmebutton@extension.gimmebar.com</em:id>
+        <em:type>2</em:type>
+        <em:name>Gimme Button</em:name>
+        <em:version>0.1</em:version>
+        <em:description>The Gimme Button for Gimme Bar.</em:description>
+        <em:iconURL>chrome://gimmebutton/skin/icon48.png</em:iconURL>
+        <em:icon64URL>chrome://gimmebutton/skin/icon64.png</em:icon64URL>
+
+        <em:creator>Gimme Bar, Inc.</em:creator>
+        <em:homepageURL>http://gimmebar.com/</em:homepageURL>
+
+        <em:developer>Ben Ramsey</em:developer>
+
+        <!-- Our target application is Firefox -->
+        <em:targetApplication>
+            <Description>
+                <em:id>{ec8030f7-c20a-464f-9b0e-13a3a9e97384}</em:id>
+                <em:minVersion>9.0</em:minVersion>
+                <em:maxVersion>9.*</em:maxVersion>
+            </Description>
+        </em:targetApplication>
+
+    </Description>
+
+</RDF>

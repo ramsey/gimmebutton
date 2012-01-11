@@ -1,0 +1,7 @@
+content	gimmebutton	content/
+overlay	chrome://browser/content/browser.xul	chrome://gimmebutton/content/overlay.xul
+
+locale	gimmebutton	en-US	locale/en-US/
+
+skin	gimmebutton	classic/1.0	skin/
+style	chrome://global/content/customizeToolbar.xul	chrome://gimmebutton/skin/overlay.css

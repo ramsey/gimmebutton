@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<?xml-stylesheet href="chrome://gimmebutton/skin/overlay.css" type="text/css"?>
+<!DOCTYPE overlay SYSTEM "chrome://gimmebutton/locale/overlay.dtd">
+<overlay id="gimmebutton-overlay"
+         xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+
+    <script src="overlay.js"/>
+
+    <toolbarpalette id="BrowserToolbarPalette">
+        <toolbarbutton id="gimmebutton-button" class="toolbarbutton-1"
+            label="&toolbarbutton.label;" tooltiptext="&toolbarbutton.tooltip;"
+            oncommand="GimmeButton.onToolbarButtonCommand(event);"/>
+    </toolbarpalette>
+
+</overlay>

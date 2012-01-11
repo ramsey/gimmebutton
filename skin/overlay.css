@@ -1,0 +1,7 @@
+#gimmebutton-button {
+  list-style-image: url("chrome://gimmebutton/skin/icon16.png");
+}
+
+toolbar[iconsize="small"] #gimmebutton-button {
+  list-style-image: url("chrome://gimmebutton/skin/icon16.png");
+}
